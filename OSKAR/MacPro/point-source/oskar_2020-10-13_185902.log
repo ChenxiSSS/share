@@ -1,0 +1,186 @@
+ |                                                                   
+=|== OSKAR-2.7.6 starting at 2020-10-13, 18:59:02 (CST).
+ |                                                                   
+ | + Current dir is /Volumes/Kevin/oskar_test
+ | + Logging to file oskar_2020-10-13_185902.log
+ |                                                                   
+=|== Loaded settings file 'sim_interferometer.f158.00.ini'
+ |                                                                   
+ | + Simulator settings
+ |   - Use double precision              : false
+ |   - Use GPUs                          : true
+ |   - CUDA device IDs to use            : all
+ |   - Number of compute devices         : auto
+ |   - Max. number of sources per chunk  : 64288
+ |   - Keep log file                     : true
+ |   - Write status messages to log file : true
+ | + Sky model settings
+ |   - OSKAR sky model file settings
+ |     * OSKAR sky model file(s): skymodel/201911052217_ptrs2000fov1img1800_158.00.osm
+ |   - Advanced settings
+ |     * Apply horizon clip              : false
+ | + Observation settings
+ |   - Phase centre RA [deg]             : 0.0
+ |   - Phase centre Dec [deg]            : -27.0
+ |   - Start frequency [Hz]              : 158000000.0
+ |   - Number of frequency channels      : 1
+ |   - Frequency increment [Hz]          : 0.0
+ |   - Start time (UTC)                  : 2000-01-01T06:30:00.0
+ |   - Observation length [sec, or hh:mm:ss]: 21600.0
+ |   - Number of time steps              : 72
+ | + Telescope model settings
+ |   - Input directory                   : telescope_model/ska1low.tm
+ |   - Normalise beams at phase centre   : true
+ |   - Allow station beam duplication    : true
+ |   - Polarisation mode                 : Scalar
+ |   - Station type                      : Aperture array
+ | + Interferometer settings
+ |   - Channel bandwidth [Hz]            : 80000.0
+ |   - Time average [sec]                : 300.0
+ |   - Max. time samples per block       : 8
+ |   - Correlation type                  : Cross-correlations
+ |   - Output OSKAR visibility file
+ |   - Output Measurement Set: visibility/201911052217_ptrs2000fov1img1800_158.00.ms
+ |   - Force polarised Measurement Set   : false
+ |                                                                   
+=|== Sky model set-up
+ |                                                                   
+ | + Loading OSKAR sky model file 'skymodel/201911052217_ptrs2000fov1img1800_158.00.osm' ...
+ |   - done.
+ |                                                                   
+=|== Sky model summary
+ |                                                                   
+ | + Num. sources                        : 14266
+ | + Num. chunks                         : 1
+ |                                                                   
+=|== Telescope model summary
+ |                                                                   
+ | + Longitude [deg]                     : 116.764
+ | + Latitude [deg]                      : -26.825
+ | + Altitude [m]                        : 0
+ | + Num. stations                       : 512
+ | + Max station size                    : 256
+ | + Max station depth                   : 1
+ | + Identical stations                  : false
+ |                                                                   
+=|== Initial memory usage
+ |                                                                   
+ | + OpenCL device 0 [AMD Radeon HD - FirePro D300 Compute Engine] has 2048 MiB (max alloc. 512.0 MiB).
+ | + OpenCL device 1 [AMD Radeon HD - FirePro D300 Compute Engine] has 2048 MiB (max alloc. 512.0 MiB).
+ | + System memory is 95.9% (61.4 GB/64.0 GB) used.
+ | + System memory used by current process: 176.2 MB.
+ |                                                                   
+=|== Starting simulation...
+ |                                                                   
+ |   - Time  1/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time  2/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time  3/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time  4/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time  5/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time  6/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time  7/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time  8/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time  9/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 10/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ | + Block 1/9 ( 11%) complete. Simulation time elapsed: 2.366 s
+ |   - Time 11/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 12/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 13/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 14/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 15/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 16/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 17/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 18/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ | + Block 2/9 ( 22%) complete. Simulation time elapsed: 4.220 s
+ |   - Time 19/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 20/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 21/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 22/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 23/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 24/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 25/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 26/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ | + Block 3/9 ( 33%) complete. Simulation time elapsed: 6.065 s
+ |   - Time 27/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 28/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 29/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 30/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 31/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 32/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 33/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 34/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ | + Block 4/9 ( 44%) complete. Simulation time elapsed: 7.910 s
+ |   - Time 35/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 36/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 37/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 38/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 39/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 40/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 41/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 42/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ | + Block 5/9 ( 56%) complete. Simulation time elapsed: 9.753 s
+ |   - Time 43/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 44/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 45/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 46/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 47/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 48/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 49/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 50/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ | + Block 6/9 ( 67%) complete. Simulation time elapsed: 11.594 s
+ |   - Time 51/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 52/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 53/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 54/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 55/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 56/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 57/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 58/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ | + Block 7/9 ( 78%) complete. Simulation time elapsed: 13.437 s
+ |   - Time 59/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 60/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 61/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 62/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 63/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 64/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 65/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 66/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ | + Block 8/9 ( 89%) complete. Simulation time elapsed: 15.274 s
+ |   - Time 67/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 68/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 69/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 70/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ |   - Time 71/72, Chunk 1/1, Channel 1/1 [Device 0, 14266 sources]
+ |   - Time 72/72, Chunk 1/1, Channel 1/1 [Device 1, 14266 sources]
+ | + Block 9/9 (100%) complete. Simulation time elapsed: 17.132 s
+ |                                                                   
+=|== Final memory usage
+ |                                                                   
+ | + OpenCL device 0 [AMD Radeon HD - FirePro D300 Compute Engine] has 2048 MiB (max alloc. 512.0 MiB).
+ | + OpenCL device 1 [AMD Radeon HD - FirePro D300 Compute Engine] has 2048 MiB (max alloc. 512.0 MiB).
+ | + System memory is 96.1% (61.5 GB/64.0 GB) used.
+ | + System memory used by current process: 301.0 MB.
+ |                                                                   
+=|== Simulation timing
+ |                                                                   
+ | + Total wall time      : 18.067 s
+ | + Compute              : 17.001 s [Device 0]
+ | + Compute              : 16.714 s [Device 1]
+ | + Write                : 9.029 s
+ | + Compute components:
+ |   - Copy               :  0.2%
+ |   - Horizon clip       :  0.0%
+ |   - Jones E            : 45.7%
+ |   - Jones K            :  0.8%
+ |   - Jones join         :  1.3%
+ |   - Jones correlate    : 51.7%
+ |   - Other              :  0.1%
+ |                                                                   
+=|== Simulation complete
+ |                                                                   
+ | + Output(s):
+ |   - Measurement Set    : visibility/201911052217_ptrs2000fov1img1800_158.00.ms
+ | + Run completed in 18.067 sec.
+ |                                                                   
+=|== OSKAR-2.7.6 ending at 2020-10-13, 18:59:22 (CST).
+ |                                                                   
