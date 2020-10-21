@@ -13,6 +13,14 @@
     * 71% faster than no-one;
     * 96% faster than MacPro;
     * 967% faster than iMac 21.5;
-* MacPro's duo FirePro D300 is suprisingly fast, considering that:
-    * Xray is only 48% faster than it (previous tests suggest it has around 70% - 80% speed of the Xray's);
-    * no-one is only 14% faster than it;
+* MacPro's duo FirePro D300 are suprisingly fast, considering that:
+    * Xray is only 48% faster than the MacPro (previous tests suggest it has around 70% - 80% speed of the Xray's);
+    * no-one is only 14% faster;
+
+## Reference
+Links to GPU specs can be found below:
+* [NVIDIA GeForce GTX 1080 Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877)
+* [NVIDIA Tesla K40](https://www.techpowerup.com/gpu-specs/tesla-k40c.c2505)
+* [AMD Radeon Pro 5700 XT](https://www.techpowerup.com/gpu-specs/radeon-pro-5700-xt.c3662)
+* [AMD FirePro D300](https://www.techpowerup.com/gpu-specs/firepro-d300.c2557)
+* [Intel Iris Pro Graphics 6200](https://www.techpowerup.com/gpu-specs/iris-pro-graphics-6200.c2628)
