@@ -1,0 +1,330 @@
+ |                                                                   
+=|== OSKAR-2.7.0 starting at 2020-10-21, 20:36:56 (CST).
+ |                                                                   
+ | + Current dir is /lmc/cxshan/radioskymap/test/gsyn_fov10_ra0_dec-27_ps20_201911140012nosmallscales
+ | + Logging to file oskar_2020-10-21_203656.log
+ | + Running binary oskar_sim_interferometer
+ |                                                                   
+=|== Loading settings file 'sim_interferometer.f158.00.ini'
+ |                                                                   
+ | + Simulator settings
+ |   - Use double precision              : false
+ |   - Use GPUs                          : true
+ |   - CUDA device IDs to use            : all
+ |   - Number of compute devices         : auto
+ |   - Max. number of sources per chunk  : 854288
+ |   - Keep log file                     : true
+ |   - Write status messages to log file : true
+ | + Sky model settings
+ |   - OSKAR sky model file settings
+ |     * OSKAR sky model file(s): skymodel/gsyn_satyperr450R900_158.00.osm
+ |   - Advanced settings
+ |     * Apply horizon clip              : false
+ | + Observation settings
+ |   - Phase centre RA [deg]             : 0.0
+ |   - Phase centre Dec [deg]            : -27.0
+ |   - Start frequency [Hz]              : 158000000.0
+ |   - Number of frequency channels      : 1
+ |   - Frequency increment [Hz]          : 0.0
+ |   - Start time (UTC)                  : 2000-01-01T06:30:00.0
+ |   - Observation length [sec, or hh:mm:ss]: 21600.0
+ |   - Number of time steps              : 72
+ | + Telescope model settings
+ |   - Input directory: /home/cxshan/data/radioskymap/telescope_model/ska1low.tm
+ |   - Station type                      : Aperture array
+ |   - Normalise beams at phase centre   : true
+ |   - Polarisation mode                 : Scalar
+ |   - Allow station beam duplication    : true
+ | + Interferometer settings
+ |   - Channel bandwidth [Hz]            : 80000.0
+ |   - Time average [sec]                : 300.0
+ |   - Max. time samples per block       : 10
+ |   - Correlation type                  : Cross-correlations
+ |   - Output OSKAR visibility file
+ |   - Output Measurement Set: vis_no-one/gsyn_satyperr450R900_158.00.ms
+ |   - Force polarised Measurement Set   : false
+ |                                                                   
+=|== Sky model set-up
+ |                                                                   
+ | + Loading OSKAR sky model file 'skymodel/gsyn_satyperr450R900_158.00.osm' ...
+ |   - done.
+ |                                                                   
+=|== Sky model summary
+ |                                                                   
+ | + Num. sources                        : 2536980
+ | + Num. chunks                         : 3
+ |                                                                   
+=|== Telescope model summary
+ |                                                                   
+ | + Longitude [deg]                     : 116.764
+ | + Latitude [deg]                      : -26.825
+ | + Altitude [m]                        : 0
+ | + Num. stations                       : 512
+ | + Max station size                    : 256
+ | + Max station depth                   : 1
+ | + Identical stations                  : false
+ |                                                                   
+=|== Initial memory usage
+ |                                                                   
+ | + Memory on GPU 0 [Tesla K40c] is 89.6% (10.0/11.2 GB) used.
+ | + Memory on GPU 1 [Tesla K40c] is 89.6% (10.0/11.2 GB) used.
+ | + System memory usage 87.6% (220.5 GB/251.6 GB) used.
+ | + Memory used by simulator: 0.5 MB
+ |                                                                   
+=|== Starting simulation...
+ |                                                                   
+ |   - Time  1/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time  2/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time  3/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time  4/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time  5/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time  6/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time  7/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time  8/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time  9/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 10/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time  1/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time  2/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time  3/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time  4/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time  5/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time  6/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time  7/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time  8/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time  9/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 10/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time  1/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time  2/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time  3/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time  4/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time  5/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time  6/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time  7/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time  8/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time  9/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 10/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ | + Block 1/8 ( 12%) complete. Simulation time elapsed: 372.654 s
+ |   - Time 12/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 11/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 13/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 14/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 15/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 16/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 17/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 18/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 19/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 20/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 11/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 12/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 13/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 14/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 15/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 16/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 17/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 18/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 19/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 20/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 11/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 12/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 13/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 14/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 15/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 16/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 17/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 18/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 19/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 20/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ | + Block 2/8 ( 25%) complete. Simulation time elapsed: 745.333 s
+ |   - Time 21/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 22/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 23/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 24/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 25/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 26/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 27/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 28/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 29/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 30/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 21/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 22/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 23/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 24/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 25/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 26/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 27/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 28/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 29/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 30/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 21/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 22/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 23/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 24/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 25/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 26/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 27/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 28/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 29/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 30/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ | + Block 3/8 ( 38%) complete. Simulation time elapsed: 1117.829 s
+ |   - Time 31/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 32/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 33/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 34/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 35/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 36/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 37/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 38/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 39/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 40/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 31/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 32/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 33/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 34/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 35/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 36/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 37/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 38/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 39/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 40/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 31/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 32/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 33/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 34/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 35/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 36/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 37/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 38/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 39/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 40/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ | + Block 4/8 ( 50%) complete. Simulation time elapsed: 1490.466 s
+ |   - Time 41/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 42/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 43/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 44/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 45/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 46/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 47/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 48/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 49/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 50/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 41/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 42/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 43/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 44/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 45/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 46/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 47/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 48/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 49/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 50/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 41/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 42/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 43/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 44/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 45/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 46/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 47/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 48/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 49/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 50/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ | + Block 5/8 ( 62%) complete. Simulation time elapsed: 1863.088 s
+ |   - Time 51/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 52/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 53/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 54/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 55/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 56/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 57/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 58/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 59/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 60/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 51/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 52/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 53/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 54/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 55/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 56/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 57/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 58/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 59/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 60/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 51/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 52/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 53/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 54/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 55/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 56/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 57/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 58/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 59/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 60/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ | + Block 6/8 ( 75%) complete. Simulation time elapsed: 2235.714 s
+ |   - Time 61/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 62/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 63/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 64/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 65/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 66/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 67/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 68/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 69/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 70/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 61/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 62/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 63/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 64/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 65/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 66/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 67/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 68/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 69/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 70/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 61/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 62/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 63/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 64/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 65/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 66/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 67/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 68/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ |   - Time 69/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 70/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ | + Block 7/8 ( 88%) complete. Simulation time elapsed: 2608.286 s
+ |   - Time 71/72, Chunk 1/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 72/72, Chunk 1/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 72/72, Chunk 2/3, Channel 1/1 [Device 1, 854288 sources]
+ |   - Time 71/72, Chunk 2/3, Channel 1/1 [Device 0, 854288 sources]
+ |   - Time 71/72, Chunk 3/3, Channel 1/1 [Device 1, 828404 sources]
+ |   - Time 72/72, Chunk 3/3, Channel 1/1 [Device 0, 828404 sources]
+ | + Block 8/8 (100%) complete. Simulation time elapsed: 2682.854 s
+ |                                                                   
+=|== Final memory usage
+ |                                                                   
+ | + Memory on GPU 0 [Tesla K40c] is 89.7% (10.0/11.2 GB) used.
+ | + Memory on GPU 1 [Tesla K40c] is 89.7% (10.0/11.2 GB) used.
+ | + System memory usage 87.6% (220.4 GB/251.6 GB) used.
+ | + Memory used by simulator: 0.6 MB
+ |                                                                   
+=|== Simulation timing
+ |                                                                   
+ | + Total wall time      : 2683.140 s
+ | + Compute              : 2682.852 s [Device 0]
+ | + Compute              : 2675.587 s [Device 1]
+ | + Write                : 8.130 s
+ | + Compute components:
+ |   - Copy               : 17.8%
+ |   - Horizon clip       :  0.0%
+ |   - Jones E            : 82.2%
+ |   - Jones K            :  0.0%
+ |   - Jones join         :  0.0%
+ |   - Jones correlate    :  0.0%
+ |   - Other              :  0.0%
+ |                                                                   
+=|== Simulation complete
+ |                                                                   
+ | + Output(s):
+ |   - Measurement Set    : vis_no-one/gsyn_satyperr450R900_158.00.ms
+ | + Run completed in 2685.564 sec.
+ |                                                                   
+=|== OSKAR-2.7.0 ending at 2020-10-21, 21:21:50 (CST).
+ |                                                                   
