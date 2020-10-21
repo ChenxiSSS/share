@@ -19,8 +19,9 @@ Two point source simulations were tested. The skymodel can be found at [here](ht
     * Init file: [sim_interferometer.f158.00.ini](https://github.com/ChenxiSSS/share/blob/main/OSKAR/MacPro/point-source/sim_interferometer.f158.00.ini)
     * Sim one log: [oskar_2020-10-13_185902.log](https://github.com/ChenxiSSS/share/blob/main/OSKAR/MacPro/point-source/oskar_2020-10-13_185902.log)
     * Sim two log: [oskar_2020-10-13_185922.log](https://github.com/ChenxiSSS/share/blob/main/OSKAR/MacPro/point-source/oskar_2020-10-13_185922.log)
+
 One galactic diffuse simulation were tested. The skymodel is to large to be add here.
 * Galactic gsync:
     * Init file: [sim_interferometer.f158.00.ini](https://github.com/ChenxiSSS/share/blob/main/OSKAR/MacPro/point-source/sim_interferometer.f158.00.ini)
-    * Sim log: [oskar_2020-10-13_194636.log](https://github.com/ChenxiSSS/share/blob/main/OSKAR/MacPro/galactic/oskar_2020-10-13_003548.log)
+    * Sim log: [oskar_2020-10-13_194636.log](https://github.com/ChenxiSSS/share/blob/main/OSKAR/MacPro/galactic/oskar_2020-10-13_194636.log)
 
